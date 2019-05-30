@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+* {
+  font-family: VT323;
+  font-size: 1.2rem;
+}
+
+body {
+  background: rgb(29, 29, 29) !important;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 0 !important;
+}
+
+.card {
+  border: none !important;
+  width: 18rem;
+}
+
+.card-body {
+  background: rgb(182, 66, 66);
+  border: none !important;
+}
+
+.card-text {
+  background: ghostwhite;
+  font-weight: 600;
+}
+
+.card-img-top {
+  border: 10px solid rgb(182, 66, 66);
+}
+
+h5 {
+font-size: 1.3em !important;
+}
+
+.fa-github {
+color: white;
+}

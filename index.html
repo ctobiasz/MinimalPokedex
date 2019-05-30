@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Minimal Pokedex</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=VT323' rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container pt-5">
+      <div class="row justify-content-md-center mb-3 mx-auto">
+        <div class="col-md-l2 mx-auto my-auto">
+          <h1 class="text-center text-white">Minimal Pokédex</h1>
+          <input id="pokeid" type="text" placeholder="type id here" value="">
+          <button id="pokeButton" type="submit">Submit</button>
+          <button id="pokeReset" type="reset">Reset</button>
+        </div>
+      </div>
+      <div class="row justify-content-md-center mx-auto">
+          <div class="card">
+            <h5 class="card-img-top text-center pokemon-stats-name m-0 rounded-0">Name</h5>
+            <img class="card-img-top pokemon-stats-sprite" src="https://www.pngkit.com/png/detail/314-3140523_pokeball-master-ball-sprite-png.png"></img>
+            <div class="card-body">
+              <p class="card-text text-center pokemon-stats-id rounded"><strong>ID: </strong></p>
+              <p class="card-text text-center pokemon-stats-hp rounded"><strong>HP: </strong></p>
+              <p class="card-text text-center pokemon-stats-atk text-dark rounded"><strong>Attack: </strong></p>
+              <p class="card-text text-center pokemon-stats-defense text-dark rounded"><strong>Defense: </strong></p>
+              <p class="card-text text-center pokemon-stats-ability1 text-dark rounded"><strong>Abilities: </strong></p>
+            </div>
+          </div>
+      </div>
+    </div>
+
+      <footer class="mt-3">
+        <p class="text-center text-white">Created by: <a href="www.christobiasz.com" target="_blank">Christopher Tobiasz </a><a href="www.github.com/ctobiasz" target="_blank"><i class="fab fa-github fa-xs"></a></i></p>
+      </footer>
+
+  <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
